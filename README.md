@@ -1,4 +1,4 @@
-# Team12-Problem3
+# Group11-Problem3
 
 ## Setup
 1. **Python Environment**
