@@ -12,7 +12,7 @@ pip install -r requirement.txt
 -Create a folder named data to store the crawled data.
 -Execute the following commands to start crawling:
 - Running the code in tweet_crawler_checkpoint1.py  to start crawling
-3. **Data Preprocessing**
+2. **Data Preprocessing**
 - Running the code in data-preprocessing\check_duplicate.py to remove the duplicate records
 ```
 python data-preprocessing\check_duplicate.py
@@ -25,14 +25,14 @@ python data-preprocessing\clean_data.py
 ```
 python data-preprocessing\preprocessing_data.py
 ```
-4. **Data Analysis**
+3. **Data Analysis**
 - Continue in the JupyterHub environment
 - Run the write_to_elastic.py code to index the data into Kibana for creating dashboards.   
 ```
 python write_to_elastic.py
 ```
 - After that, implement for analysis in Kibana.
-5. **Evaluation**
+4. **Evaluation**
 - Continue in the JupyterHub environment
 - Running the code in model_evaluation.py to cluster KOL and project accounts data 
 ```
