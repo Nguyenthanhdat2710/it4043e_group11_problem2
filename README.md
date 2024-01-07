@@ -6,8 +6,8 @@ Run install the requirements:
 ```python
 pip install -r requirement.txt
 ```
-Create a file named account.key containing the Twitter account's username, password, and bearer token.
-Ensure to update the path to Google Storage in each file.
+-Create a file named account.key containing the Twitter account's username, password, and bearer token.
+-Ensure to update the path to Google Storage in each file.
 2. **Crawled data**
 Modify the keywords or users for crawling in the config_keywords.yaml or config_users.yaml file.
 Create a folder named data to store the crawled data.
