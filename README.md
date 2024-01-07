@@ -1,14 +1,13 @@
 # Group11-Problem3
 
 ## Setup
-1. **Python Environment**
+1. **Python Environment and crawled data**
 Run install the requirements: 
 ```python
 pip install -r requirement.txt
 ```
 -Create a file named account.key containing the Twitter account's username, password, and bearer token.
 -Ensure to update the path to Google Storage in each file.
-2. **Crawled data**
 -Modify the keywords or users for crawling in the config_keywords.yaml or config_users.yaml file.
 -Create a folder named data to store the crawled data.
 -Execute the following commands to start crawling:
@@ -40,6 +39,4 @@ python write_to_elastic.py
 python model_evaluation.py
 ```
 
-## Data Structures
-Please visit Data documentation – Group 12.docx
 
